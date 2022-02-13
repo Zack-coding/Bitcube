@@ -1,3 +1,20 @@
+body {
+       background-color: lightblue;
+}
+
+nav {
+       border: 1px;
+       background-color: white;
+       color: white;
+       padding: 6xp;
+}
+
+
+
+
+
+
 .class {
-       border: 20px;
+       border: 1px;
+       color: black;
 }

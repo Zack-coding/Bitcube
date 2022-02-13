@@ -9,37 +9,46 @@
        <title>Stock Management</title>
 </head>
 <body>
+<nav class="sections" >
+       <a href="#Section One">View stock</a> |
+       <a href="#Section Two">Add stock</a> |
+       <a href="#Section Three">Remove stock</a>
+
+</nav>
+
+<br>
 <!--The order in which the three sections are in makes most sense to me-->
-       <div class="Section One"> 
+<div class="Section One"> 
 <!--Every time stock gets added or removed from our system, the number of items we have in stock for a specific product will change. The average price of a specific product will also change, seeing as we’re adding products for different prices.
 
 Our website user needs to know how many items we have in stock for each of our 3 products, and what the average price is for each of our 3 products. This information needs to update and get displayed after every ‘add’ or ‘remove’ transaction.
 
 With the above in mind, build a section where your website will display the above to the website user.-->
-             <ul><h1>Stock Levels</h1>
-
-              <li>Product 01</li>
+<h1>Stock Levels</h1>
+<ul>
+       <li>Product 01</li>
               
-              <li>Product 02</li>
+       <li>Product 02</li>
               
-              <li>Product 03</li></ul>
-       </div>
+       <li>Product 03</li>
+</ul>
+</div>
 <!--Your stock system only has 3 products, PRODUCT1, PRODUCT2 and PRODUCT3. Your website user should be able to add stock items to your stock system for these three products.
 Number of items added should vary, for instance at some point you could receive 20 items of PRODUCT1. And at another time 45 items of PRODUCT3.
 Prices also vary. For instance, you could receive 10 items of PRODUCT2 with an item price of R56.89. And next week you could receive 50 items of PRODUCT2 for an item price of R46.89.
 With the above in mind, build a section where your website user can add these items using this 'Add Stock' section. Use the image below as guidance.-->
 
-       <div class="Section Two">
-       <h1>Add stock</h1>
+<div class="Section Two">
+<h1>Add stock</h1>
 
-       <ul>
-              <li>Select the product code</li>
+<ul>
+       <li>Select the product code</li>
 
-              <li>Items recieved</li>
+       <li>Items recieved</li>
 
-              <li>Price per item recieved</li>
-       </ul>
-       </div>
+       <li>Price per item recieved</li>
+</ul>
+</div>
 <!--Your website user should be able to remove stock from your stock system by ‘selling’ items.
 To remove stock, we need to know what product we’re ‘selling’, how many items of the product we’re selling,
 and we need an email address of the customer who ‘bought’ the products.
@@ -48,15 +57,16 @@ So, if you bought 7 items of PRODUCT1 with email address test@test.com,
 you cannot buy anything again with test@test.com. You should notify your website user if
 he/she attempts to buy something with an email address that was already used.
 With the above in mind, build a section where your website user can remove items using this 'Remove Stock' section.-->
-       <div class="Section Three">
-             <ul><h1>Remove stock</h1></ul> 
+<div class="Section Three">
+<h1>Remove stock</h1>
 
-             <li>Select a product code</li>
-             <li>Buyers email address</li>
-             <li>Items bought</li>
+<ul>
+       <li>Select a product code</li>
 
-              
+       <li>Buyers email address</li>
 
-       </div>
+       <li>Items bought</li>             
+</ul>
+</div>
 </body>
 </html>
